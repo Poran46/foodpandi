@@ -2,15 +2,23 @@
     display: flex;
 }
 
+body {
+    margin: 0;
+}
+
 .for-widthfifty {
     width: 50%;
     margin-left: 100px;
+
+}
+
+.for-widthfiftysecond {
+    width: 50%;
 }
 
 .big-font {
     font-size: 70px;
     font-family: 'Raleway', sans-serif;
-    ;
     font-weight: 10px;
 }
 
@@ -22,15 +30,125 @@
 
 .decorationlink {
     text-decoration: none;
-    background-color: coral;
     padding: 10px 25px;
     font-weight: 150px;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    background-image: -moz-linear-gradient (pink coral);
+    background: -moz-linear-gradient (pink coral);
+    background-color: orange;
     border-radius: 10px;
     color: azure;
     border-radius: 50px;
     box-shadow: 0 0 20px coral;
 
+}
+
+.images {
+    width: 80%;
+    margin-left: 200px;
+    padding-top: 20px;
+
+
+}
+
+.parasecond {
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+
+.backgrounmake {
+    background-image: url(images/shapes/7.png);
+    margin-top: 100px;
+    padding-top: 15px;
+
+
+}
+
+#aboutme {
+    font-size: 40px;
+    font-style: unset;
+    color: rgb(93, 84, 84);
+}
+
+#parasecond {
+    margin: left 200px;
+    font-size: 20px;
+}
+
+.parathird {
+    text-align: center;
+}
+
+#secondpera {
+    font-size: 18px;
+}
+
+.displyfelx2 {
+    display: flex;
+}
+
+.forfifty {
+    box-shadow: 20px 20px 40px gray;
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 1000px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+
+
+}
+
+.forfifty1 {
+    box-shadow: 20px 20px 40px gray;
+    width: 50%;
+    margin-left: 220px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+.for-shadow {
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 10px;
+    margin-left: 175px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.for-h1 {
+    font-size: 40px;
+    font-weight: 20px;
+}
+
+.bg-last {
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+#for-h1 {
+    text-align: center;
+}
+
+#for-peralast {
+    text-align: center;
+    color: white;
 }
