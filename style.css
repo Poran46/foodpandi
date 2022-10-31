@@ -1,0 +1,36 @@
+.first-phase-flex {
+    display: flex;
+}
+
+.for-widthfifty {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.big-font {
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    ;
+    font-weight: 10px;
+}
+
+#discrive {
+    color: gray;
+    font-size: 25px;
+    font-weight: 10px;
+}
+
+.decorationlink {
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 25px;
+    font-weight: 150px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: -moz-linear-gradient (pink coral);
+    border-radius: 10px;
+    color: azure;
+    border-radius: 50px;
+    box-shadow: 0 0 20px coral;
+
+}
